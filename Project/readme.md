@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 ##Getting and Cleaning Data Course Final Project
 
@@ -29,7 +28,7 @@ This repository, contains the following files:
     
 ##Creating the data set
 
-The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
+The R script run_analysis.R can be used to create the data set.
 
 
 1. Read data.
@@ -39,6 +38,3 @@ The R script run_analysis.R can be used to create the data set. It retrieves the
 5. Appropriately label the data set with descriptive variable names.
 6. Create a second, independent tidy set with the average of each variable for each activity and each subject.
 7. Write the data set to the tidy_data.txt file.
-=======
-###Peer Reviewed Assignment
->>>>>>> 6e276c4769956f0b6ee3e0c88cef427779e357ab
