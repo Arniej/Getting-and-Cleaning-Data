@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 ##Getting and Cleaning Data Course Final Project
 
@@ -39,6 +38,3 @@ The R script run_analysis.R can be used to create the data set. It retrieves the
 5. Appropriately label the data set with descriptive variable names.
 6. Create a second, independent tidy set with the average of each variable for each activity and each subject.
 7. Write the data set to the tidy_data.txt file.
-=======
-###Peer Reviewed Assignment
->>>>>>> 6e276c4769956f0b6ee3e0c88cef427779e357ab
