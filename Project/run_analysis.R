@@ -8,7 +8,6 @@
 library(dplyr)   
 library(data.table)  
 library(reshape2)
-library(knitr)
 
 ##Read Activity Names, label columns
 
@@ -93,10 +92,7 @@ tidydatafinal <- desnames %>%
 
 ##Create tidy data .txt file and write table to directory
 
-write.table(tidydatafinal,"./tidy_data.txt")
+write.table(tidydatafinal,"./tidy_data.txt", row.names = FALSE, quote = FALSE)
 
-##Make Codebook
 
-knit("makeCodebook.Rmd", output="codebook.md", encoding="ISO8859-1", quiet=TRUE)
-markdownToHTML("codebook.md", "codebook.html")
 
